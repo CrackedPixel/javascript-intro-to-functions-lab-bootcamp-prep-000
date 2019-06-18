@@ -21,6 +21,6 @@ function sayHiToGrandma(msg){
   if (msg === msg.toLowerCase()){
     return "I can't hear you!";
   }else{
-    return "YES INDEED";
+    return "YES INDEED!";
   }
 }
