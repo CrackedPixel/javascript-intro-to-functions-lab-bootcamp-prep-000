@@ -10,6 +10,10 @@ function logShout(msg){
   console.log(shout(msg));
 }
 
+function logWhisper(msg){
+  console.log(whisper(msg));
+}
+
 function sayHiToGrandma(msg){
   if (msg === "I love you, Grandma."){
     return "I love you, too.";
