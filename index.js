@@ -11,6 +11,9 @@ function logShout(msg){
 }
 
 function sayHiToGrandma(msg){
+  if (msg === "I love you, Grandma."){
+    return "I love you, too.";
+  }
   if (msg === msg.toLowerCase()){
     return "I can't hear you!";
   }else{
